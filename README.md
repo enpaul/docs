@@ -1,48 +1,40 @@
 # omni-docs
 
-ENP.One system and infrastructure documentation, using [MkDocs](https://www.mkdocs.org/)
+ENP.One system and infrastructure documentation, written using [MkDocs](https://www.mkdocs.org/)
 
-## Building
+* [building](#building)
+* [editing](#editing)
+
+## building
 
 1. Install [Pipenv](https://docs.pipenv.org/en/latest/)
-
-   ```shell
-   pip install pipenv --user
-   ```
-
 2. Synchronize environment
-
-   ```shell
-   pipenv sync
-   ```
-
 3. Build documentation
 
-   ```shell
-   pipenv run mkdocs build
-   ```
+```shell
+# Install pipenv
+pip install pipenv --user
+# Synchronize
+pipenv sync
+# Build docs
+pipenv run mkdocs build
+```
 
-Built docs are now located in `site/` and can be served as static HTML. See [MkDocs deployment](https://www.mkdocs.org/#deploying)
+The docs are now located in the `site/` directory and can be served as static HTML. See [MkDocs deployment](https://www.mkdocs.org/#deploying)
 
-## Editing/Developing
+## editing
 
 1. Install [Pipenv](https://docs.pipenv.org/en/latest/)
-
-   ```shell
-   pip install pipenv --user
-   ```
-
 2. Synchronize environment, with development dependencies
-
-   ```shell
-   pipenv sync --dev
-   ```
-
 3. Run development server
 
-   ```shell
-   pipenv run mkdocs serve
-   ```
+```shell
+# Install pipenv
+pip install pipenv --user
+# Synchronize, with dev deps
+pipenv sync --dev
+# Run dev server
+pipenv run mkdocs serve
+```
 
-4. Edit away!
-
+The development server is available at http://localhost:8000 and will automatically refresh with any changes made to the local files.
