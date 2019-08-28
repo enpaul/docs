@@ -1,4 +1,4 @@
-# Hypervisors
+# Virtual Machines
 
 Deployment procedure for new hypervisors, and documentation of existing hypervisor configurations.
 

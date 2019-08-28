@@ -1,5 +1,5 @@
 ---
-site_name: Network Docs
+site_name: ENP.One Docs
 theme:
     name: material
     palette:
@@ -17,4 +17,23 @@ repo_name: omni/omni-docs
 repo_url: https://vcs.enp.one/omni/omni-docs/
 nav:
     - Home: index.md
+    - Network:
+        - Architecture: network/arc.md
+        - Configuration: network/config.md
+        - DHCP/DNS: network/dhcp-dns.md
+        - Security: network/security.md
+        - Web Hosting: network/web.md
+    - Virtualization:
+        - Virtual Machines: virtualization/vms.md
+        - Docker: virtualization/docker.md
+    - Applications:
+        - Gitea: applications/gitea.md
+        - Plex: applications/plex.md
+        - Nextcloud: applications/nextcloud.md
+        - Bitwarden: applications/bitwarden.md
+    - Hardware:
+        - Dell PowerEdge R410: hardware/poweredge-r410.md
+        - EdgeRouter Lite: hardware/erl.md
+        - Workstations: hardware/workstations.md
+    
 
