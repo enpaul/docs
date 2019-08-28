@@ -1,0 +1,10 @@
+[packages]
+mkdocs = ">=1.0.4"
+mkdocs-git-revision-date-plugin = "*"
+mkdocs-material = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

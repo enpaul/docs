@@ -1,1 +1,16 @@
-site_name: My Docs
+---
+site_name: net.enp.one
+theme:
+    name: 'material'
+    primary: "blue grey"
+    accent: amber
+    favicon: images/favicon.ico
+    logo: https://cdn.enp.one/img/logos/e-w-sm.png
+plugins:
+    - git-revision-date
+    - search
+markdown_extensions:
+    - admonition
+    - codehilite
+repo_name: omni/omni-docs
+repo_url: https://vcs.enp.one/omni/omni-docs/
