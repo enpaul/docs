@@ -17,6 +17,11 @@ repo_name: omni/omni-docs
 repo_url: https://vcs.enp.one/omni/omni-docs/
 nav:
     - Home: index.md
+    - Roadmap(s):
+        - Redundancy: roadmap/redundancy.md
+        - Ansible Automation: roadmap/awx.md
+        - CI/CD: roadmap/buildbot.md
+        - Autochat: roadmap/irc.md
     - Network:
         - Architecture: network/arc.md
         - Configuration: network/config.md
@@ -35,5 +40,4 @@ nav:
         - Dell PowerEdge R410: hardware/poweredge-r410.md
         - EdgeRouter Lite: hardware/erl.md
         - Workstations: hardware/workstations.md
-    
 
