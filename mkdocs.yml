@@ -1,9 +1,10 @@
 ---
-site_name: net.enp.one
+site_name: Network Docs
 theme:
-    name: 'material'
-    primary: "blue grey"
-    accent: amber
+    name: material
+    palette:
+        primary: black
+        accent: amber
     favicon: images/favicon.ico
     logo: https://cdn.enp.one/img/logos/e-w-sm.png
 plugins:
@@ -14,3 +15,6 @@ markdown_extensions:
     - codehilite
 repo_name: omni/omni-docs
 repo_url: https://vcs.enp.one/omni/omni-docs/
+nav:
+    - Home: index.md
+
