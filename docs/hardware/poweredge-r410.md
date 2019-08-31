@@ -47,9 +47,25 @@ Remus also sacrificed its DVD drive to host a 256GB SSD boot drive which runs th
 My preferred server-side operating system is [CentOS](https://www.centos.org/),
 and as such both Romulus and Remus are running CentOS 7.5 on bare metal.
 
-Both are configured to run [KVM for virtualization](../virtualization/vms.md) and Romulus is setup with an instance of the Open Virtualization Manager (OVirt) to manage the virtual machines running on both hosts.
+Both are configured to run [KVM for virtualization](../virtualization/vms.md)
+and Romulus is setup with an instance of the Open Virtualization Manager
+(OVirt) to manage the virtual machines running on both hosts.
 
 See the [configuration section](../config.md) for more information.
+
+## Upgrades
+
+These are planned upgrades that will eventually be made to these systems:
+
+* Upgrade Remus from e5500 to x5600 processors. This will allow virtual
+machines running on one server to be live-migrated to the other.
+* Balance RAM distribution across the two servers, moving memory out of
+Romulus and into Remus.
+* Upgrade memory modules running at 1333MHz to modules running at 1600MHz.
+This will allow virtual machines running on one server to be live-migrated to
+the other
+* Restructure shared and internal storage. See the ongoing
+[redundancy improvement efforts](../roadmap/redundancy.md)
 
 ---
 
