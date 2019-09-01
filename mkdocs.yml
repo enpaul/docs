@@ -5,7 +5,7 @@ theme:
     palette:
         primary: black
         accent: amber
-    favicon: images/favicon.ico
+    favicon: img/favicon.ico
     logo: https://cdn.enp.one/img/logos/e-w-sm.png
 plugins:
     - git-revision-date
@@ -40,4 +40,3 @@ nav:
         - Dell PowerEdge R410: hardware/poweredge-r410.md
         - EdgeRouter Lite: hardware/erl.md
         - Workstations: hardware/workstations.md
-
