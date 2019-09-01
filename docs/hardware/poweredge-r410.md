@@ -51,7 +51,7 @@ Both are configured to run [KVM for virtualization](../virtualization/vms.md)
 and Romulus is setup with an instance of the Open Virtualization Manager
 (OVirt) to manage the virtual machines running on both hosts.
 
-See the [configuration section](../config.md) for more information.
+See the [configuration section](../network/config.md) for more information.
 
 ## Upgrades
 
